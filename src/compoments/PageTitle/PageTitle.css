@@ -2,6 +2,9 @@
     background-color: #F8F9FC;
     margin-top: -100px;
     min-height: 370px;
+    position: relative;
+    z-index: -10;
+    overflow: hidden;
 }
 
 .page-title-content {
@@ -10,4 +13,20 @@
 
 .page-title-content p {
     font-weight: 600;
+}
+
+.page-title-content p a {
+    text-decoration: none;
+    color: black
+}
+
+.circle {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #D7F5DC 0%, rgba(255, 255, 255, 0.00) 100%);
+    position: absolute;
+    top: -400px;
+    right: -400px;
+    z-index: -9;
 }

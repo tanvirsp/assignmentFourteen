@@ -7,6 +7,7 @@ const SectionTitle = ({title, des}) => {
             <h5>{title}</h5>
             <h3>{des}</h3>
             
+            
         </div>
     );
 };

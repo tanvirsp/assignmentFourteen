@@ -1,0 +1,24 @@
+.login-section {
+    max-width: 600px;
+    margin: 85px auto  0 auto;
+    padding: 45px 30px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    
+
+}
+
+.login-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+
+@media (max-width: 630px) { 
+   
+    .login-section {
+        margin: 35px 25px 
+    }
+  }

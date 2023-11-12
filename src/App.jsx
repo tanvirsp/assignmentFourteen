@@ -7,6 +7,8 @@ import Team from "./pages/Team";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Testimonials from "./pages/Testimonials";
+import Login from "./pages/Login";
+import Registration from "./pages/Registration";
 
 
 
@@ -20,6 +22,8 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Registration />} />
           
           
         </Routes>
